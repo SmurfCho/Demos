@@ -1,0 +1,182 @@
+.container{
+	width: 70%;
+	position: relative;
+	top: 100px;
+	margin: 0 auto 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #eee;
+	color: #113;
+}
+section{
+	width: 100%;
+	position: relative;
+	display: block;
+	padding: 20px;
+	box-sizing: border-box;
+}
+h2{
+	width: 100%
+	height: 30px;
+	position: relative;
+	text-align: center;
+	line-height: 30px;
+	font-size: 2rem;
+	color: #113;
+
+} 
+#introduction div:nth-of-type(1){
+	width: 70%;
+	position: relative;
+	display: inline-block;
+	padding: 0;
+	vertical-align: top;
+}
+#introduction p{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+	font-size: 1.5rem;
+	font-weight: 500px;
+}
+#introduction div:nth-of-type(2){
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	vertical-align: top;
+}
+#introduction img{
+	width: 200px;
+	height: 200px;
+	border: none;
+	border-radius: 50%;
+}
+#portfolio ul{
+	display: flex;
+	flex-flow:row wrap;
+	justify-content: space-around;
+	padding: 20px;
+	box-sizing: border-box;
+}
+#portfolio li{
+	width: 400px;
+	height: 200px;
+	position: relative;
+	flex: 0 0 auto;	
+	margin: 0;
+	margin-bottom: 20px;
+	padding: 0;
+	background-color: #ccc;
+}
+#contact-way form{
+	width: 50%;
+	position: relative;
+	display: inline-block;
+	margin: auto;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+#contact-way input,#contact-way textarea{
+	width: 80%;
+	height: 50px;
+	position: relative;
+	left: 10%;
+	border: none;
+	border-bottom: 2px solid #aaa;
+	margin: auto;
+	margin-bottom: 20px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 1rem;
+	font-family: Arial;
+	color: #113;
+}
+#contact-way textarea{
+	height: 150px;
+	resize: none;
+}
+#contact-way textarea::-webkit-input-placeholder,#contact-way input::-webkit-input-placeholder{
+	font-family: Arial;
+	font-size: 1.5rem;
+	color: #113;
+}
+#contact-way label{
+	width: 80%;
+	height: 20px;
+	position: absolute;
+	display: none;
+	border: none;
+	margin-left: 20px;
+	padding: 10px;
+	font-size: 1rem;
+	color: #113;
+	transition: display 2s;
+}
+#contact-way input:nth-child(6){
+	border: none;
+	background-color: #ccc;
+	cursor: pointer;
+}
+#contact-way p{
+	width: 50%;
+	position: relative;
+	padding: 50px 50px 50px 50px;
+	margin: auto;
+	box-sizing: border-box;
+	display: inline-block;
+	border-left: 2px solid #113;
+	font-family: Arial;
+	font-size: 1.5rem;
+	color: #000;
+	vertical-align: top;
+}
+#contact-way span{
+	position: relative;
+	display: block;
+	margin: 20px;
+}
+.more-info{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	top: 100px;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #999;
+}
+.about-page{
+	width:500px;
+	position: relative;
+	left: 20%;
+	display: inline-block;
+}
+.about-page a{
+	display: block;
+	font-family: Arial;
+	font-size: 2rem;
+	color: #113;
+}
+.around-web{
+	 position: relative;
+	 left: 35%;
+	 margin: 50px 20px 50px 20px;
+	 display: inline-block;
+}
+.around-web li{
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	position: relative;
+	margin-left:20px;
+	border-radius: 50%;
+}
+.around-web li:hover{
+	background-color: #eee;
+}
+.around-web img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	border: none;
+}

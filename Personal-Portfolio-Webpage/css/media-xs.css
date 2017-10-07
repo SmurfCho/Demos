@@ -1,0 +1,61 @@
+@media screen and (max-width: 1650px){
+	#contact-way h2,#contact-way form,#contact-way p{
+		display: block;
+		margin: auto;
+	}
+	#contact-way h2{
+		margin-bottom: 20px;
+	}
+	#contact-way p{
+		border: none;
+	}
+	.about-page,.around-web{
+		display: block;
+		margin: auto;
+		left: 0;
+		margin-top: 40px;
+		text-align: center;
+	}
+	.around-web{
+		left: -30px;
+	}
+}
+@media screen and (max-width: 1200px){
+	#introduction div:nth-of-type(1){
+		width: 70%;
+		display: block;
+		margin: auto;
+	}
+	#introduction div:nth-of-type(2){
+		width: 100%;
+		display: block;
+		margin: auto;
+		text-align: center;
+	}
+} 
+
+@media screen and (max-width: 800px){
+	nav ul{
+		display: none;
+	}
+	.category{
+		display: inline-block;
+	}
+	.drop-down:hover .nav-menu{
+		display: block;
+		position: absolute;
+		top: 40px;
+		left: -20px;
+		background-color: #eee;
+	}
+	.nav-menu a{
+		width: 100px;
+		display: block;
+		background-color: #eee;
+		text-align: center;
+		color: #113;
+		font-size: 1rem;
+	}
+
+
+}
