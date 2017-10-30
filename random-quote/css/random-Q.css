@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	background-color: #eee;
+	transition: 3s linear;
+}
+#showQ-block{
+	width: 500px;
+	position: relative;
+	margin: auto;
+	padding: 50px;
+	top: 200px;
+	background-color: #fff;
+}
+blockquote{
+	position: relative;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Arial;
+	transition: 3s linear;
+	text-align: center;
+}
+cite{
+	position: relative;
+	margin-left: 50%;
+	font-style: none;
+	font-family: Arial;
+	transition: 3s linear;
+}
+button{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	background-color: #faa;
+	border: none;
+	border-radius: 8px;
+	vertical-align: top;
+	transition: 3s linear;
+	margin: 20px 0 0 0;
+	cursor: pointer;
+}
+.retweet{
+	margin-left: 10%;
+}
+
+img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+}
+.new-btn{
+	height: 40px;
+	position: relative;
+	padding: 10px;
+	margin: 20px 0 0 50%;
+	box-sizing: border-box;
+	border: none;
+	background-color: #faa;
+	border-radius: 8px;
+	vertical-align: top;
+	font-size: 16px;
+	font-family: Arial;
+	color: #fff;
+	transition: 3s linear;
+	cursor: pointer;
+
+}
