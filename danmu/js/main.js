@@ -61,9 +61,9 @@ return(Min + Math.round(Rand * Range));
 /*生成一个随机颜色*/
 function randomColor(){
 	return  '#' +  
-    (function(color){  
+    (function strColor(color){  
     return (color +=  '0123456789abcdef'[Math.floor(Math.random()*16)])   
-      && (color.length == 6) ?  color : arguments.callee(color);   
+      && (color.length == 6) ?  color : strColor(color);   
   })("");
 }
 
